@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" ng-app="paintMaster">
+  <head>
+    <title>Paint Master</title>
+    <script src="lib/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/paintController.js"></script>
+  </head>
+  <body>
+    <div class="container" ng-controller="paintCtrl">
+      Hello
+      <table>
+        <tr ng-repeat="row in canvas.position">
+          <td ng-repeat="paint in row.position">
+
+          </td>
+
+    </div>
+  </body>
+</html>
